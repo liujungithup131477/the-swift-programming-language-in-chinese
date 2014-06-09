@@ -1,17 +1,66 @@
 《The Swift Programming Language》in Chinese
-=========================================
+=============================================
 
 中文版Apple官方Swift教程《The Swift Programming Language》
+
+中文Swift社区[Swiftist](http://swiftist.org/)，新社区，正在建设中，感兴趣的朋友可以一起参与进来。
+
+**如果想帮忙翻译或者校对，请加QQ群：364279588，谢谢！**
 
 # 在线阅读
 
 使用Gitbook制作，可以直接[在线阅读](http://numbbbbb.github.io/the-swift-programming-language-in-chinese/)。
+
+
+# 翻译进度
+
+> 说明：翻译之前请先到PR列表中查看别人认领的内容，尽量不要重复，谢谢！
+
+* 欢迎使用 Swift
+   * 关于 Swift(完成 By numbbbbb)
+   * Swift 初见(完成 By numbbbbb)
+* Swift 教程
+   * 基础部分(完成 By numbbbbb, lyuka, JaySurplus)
+   * 基本操作符(完成 By @xielingwang)
+   * 字符串和字符(完成 By @wh1100717)
+   * 集合类型(认领)
+   * 控制流(@vclwei 认领)
+   * 函数(完成 By @honghaoz)
+   * 闭包(完成 By @wh1100717)
+   * 枚举(完成 By @yankuangshi)
+   * 类和结构体(@JaySurplus 认领)
+   * 属性(完成 By @shinyzhu)
+   * 方法(完成 By @pp-prog)
+   * 下标(完成 By @siemenliu)
+   * 继承(完成 By @Hawstein)
+   * 构造过程(@lifedim 认领)
+   * 析构过程(完成)
+   * 自动引用计数(完成 By @TimothyYe)
+   * 可选链(完成)
+   * 类型检查(完成 By @xiehurricane)
+   * 嵌套类型(完成 By @Lin-H)
+   * 扩展(完成 By @lyuka)
+   * 协议(@geek5nan 认领)
+   * 泛型(完成 By @takalard)
+   * 高级操作符(@xielingwang 认领)
+* 语言参考
+   * 关于语言参考(完成 By @ChildhoodAndy)
+   * 词法结构(@superkam 认领)
+   * 类型(@lyuka 认领)
+   * 表达式(@sg552 认领)
+   * 语句(完成 By @coverxit)
+   * 声明(@marsprince 认领)
+   * 特性(完成 By @Hawstein)
+   * 模式(@honghaoz 认领)
+   * 泛型参数(@fd5788 认领)
+   * 语法总结(@StanZhai 认领)
 
 # 更新频率
 
 由于我是利用业余时间翻译，所以速度有限。
 
 不过我会保证每天至少1小时的翻译时间。
+
 
 # 贡献力量
 
@@ -33,6 +82,7 @@
 - 有其他任何问题都欢迎发issue，我看到了会尽快回复
 - **尽早pull request**，你不必翻译完整篇文章再pr，完全可以翻译完一段就pr一次，这样别的朋友可以及时看到你的进度，避免多人翻译同一段。此外，尽早pr也可以让校对的朋友们更早看到新内容，更快发现问题
 - 一定要记得**先查看当前的pr**再开始翻译，防止重复翻译
+- 我已经提前把所有章节的markdown文件都创建好了，翻译的时候直接写入对应文件即可
 
 谢谢！
 
@@ -53,12 +103,13 @@
 3. 在命令行运行 `git branch develop` 来创建一个新分支
 4. 运行 `git checkout develop` 来切换到新分支
 5. 运行 `git remote add upstream https://github.com/numbbbbb/the-swift-programming-language-in-chinese.git` 把我的库添加为远端库
-6. 运行 `git fetch upstream gh-pages` 拉取我的库的更新到本地
-7. 运行 `git rebase upstream/gh-pages` 将我的更新合并到你的分支
+6. 运行 `git remote update`更新
+7. 运行 `git fetch upstream gh-pages` 拉取我的库的更新到本地
+8. 运行 `git rebase upstream/gh-pages` 将我的更新合并到你的分支
 
 这是一个初始化流程，只需要做一遍就行，之后请一直在develop分支进行翻译。
 
-如果翻译过程中我的库有了更新，请重复6、7步。
+如果翻译过程中我的库有了更新，请重复6、7、8步。
 
 翻译完成之后，首先push到你的库，然后登录GitHub，在你的库的首页可以看到一个 `pull request` 按钮，点击它，填写一些说明信息，然后提交即可。
 
